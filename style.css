@@ -41,7 +41,7 @@
     <div class="container">
         <h1>stealth</h1>
         <p>A useless disccord bot.</p>
-        <a href="https://discord.com/oauth2/authorize?client_id=1324444269125308456&permissions=8&integration_type=0&scope=bot" class="invite-button">Invite the Bot</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1324444269125308456&permissions=8&integration_type=0&scope=bot" class="invite-button">Invite</a>
         <p>Currently in <span id="server-count">...</span> servers!</p>
     </div>
     <script src="script.js"></script>
