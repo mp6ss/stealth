@@ -1,47 +1,18 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #36393F; /* Dark Discord background */
-    color: #ffffff; /* Text color */
-    text-align: center;
-    padding: 50px;
-}
-
-.container {
-    max-width: 600px;
-    margin: auto;
-    background: #2F3136; /* Darker container */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
-}
-
-h1 {
-    font-size: 3em;
-    color: #7289DA; /* Discord Blue for heading */
-}
-
-p {
-    font-size: 1.2em;
-    color: #B9BBBE; /* Lighter gray text */
-}
-
-.invite-button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
-    background-color: #5865F2; /* Discord button color */
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: 0.3s ease;
-}
-
-.invite-button:hover {
-    background-color: #4752C4; /* Hover color */
-}
-
-#server-count {
-    font-weight: bold;
-    color: #F04747; /* Red for server count */
-}
+(<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stealth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>stealth</h1>
+        <p>A useless fucking discord bot.</p>
+        <a href="https://discord.com/oauth2/authorize?client_id=1324444269125308456&permissions=8&integration_type=0&scope=bot" class="invite-button">Invite</a>
+        <p>Currently in <span id="server-count">...</span> servers!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>)
